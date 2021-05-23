@@ -17,10 +17,3 @@ I used the shape function to determine the number of rows and columns in the dat
 Finally, I decided to determine the average number of prescriptions filled by quarter.
 This was done using the groupby function where every prescription was grouped by their quarter.
 The mean function was applied to each group to determine the average for each quarter.
-
-Quarter
-1    270.907023
-2    335.029500
-3    316.293268
-4    338.122521
-Name: Number of Prescriptions, dtype: float64
