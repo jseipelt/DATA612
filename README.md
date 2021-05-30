@@ -17,3 +17,18 @@ I used the shape function to determine the number of rows and columns in the dat
 Finally, I decided to determine the average number of prescriptions filled by quarter.
 This was done using the groupby function where every prescription was grouped by their quarter.
 The mean function was applied to each group to determine the average for each quarter.
+
+---------------------------------
+# DATA612: Assignment 2
+
+This assignment introduced series along with using basic operations. 
+These operations could be used to search or calculate values in the dataframe.
+
+I imported a csv containing data on several scientists: https://raw.githubusercontent.com/chendaniely/\pandas_for_everyone/master/data/scientists.csv
+
+The most recent date under the 'Died' column could be found by using the .max function from pandas.
+
+I could determine the number of days differnce between the most recent date of death and the other scientists' dates of death by subtracting using datetime.
+Numpys timedelta64 was then used to convert the difference in days to a diffrence in months.
+
+I assigned the difference in months to a new column in the dataframe and finally created a new csv in order to save this new dataset.
