@@ -32,3 +32,22 @@ I could determine the number of days differnce between the most recent date of d
 Numpys timedelta64 was then used to convert the difference in days to a diffrence in months.
 
 I assigned the difference in months to a new column in the dataframe and finally created a new csv in order to save this new dataset.
+
+---------------------------------
+# DATA612: Assignment 3
+
+The purpose of Assinment 3 is to become more familiarized with the seaborn library and its tools in plotting data.
+
+I chose the penguin dataset from the seaborn library and decided to look at a single species, the Adelie.
+The number of Adelie samples totaled to 152 penguins.
+
+The first feature that I examined was the distribution of bill lengths.
+The histogram that was plotted showed an imperfect normal distribution of bill lengths.
+I chose a histogram here because they are best used when examaning a single variable.
+Comparing bill length to body mass showed positive correlation between the two when examining a scatter plot with a regression line.
+The scatter plot was a good choice here since I was working with two different variables.
+
+I was curious to try the joint plot next, which groups close data points together into bins.
+The joint plot also plots a histogram on each axes representing each variable.
+The result looks elegant, but not the best choice in this situation due to the number of data points used.
+I would try this plot again in the future when I have a dataset several times larger than the Adelie set I used.
