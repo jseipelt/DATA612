@@ -51,3 +51,17 @@ I was curious to try the joint plot next, which groups close data points togethe
 The joint plot also plots a histogram on each axes representing each variable.
 The result looks elegant, but not the best choice in this situation due to the number of data points used.
 I would try this plot again in the future when I have a dataset several times larger than the Adelie set I used.
+
+---------------------------------
+# DATA612: Assignment 4
+
+This assignment introduces merges for dataframes and shows different options when confronted with missing values in your data.
+
+I started by using the same penguin dataset as assignment 3. This was separated into two different dataframes by species.
+Once separated, I demonstrated how to merge the two back together with the .merge function.
+Listing each column for the left and right joins allowed them to sync back into a single column once again.
+
+The number of missing values was calculated by first counting the number of non-missing values with the .count function.
+Using .shape, the number of total rows was shown, and finally subtracting the former from the latter revealed the number of missing values for each column.
+One option for missing values is to remove any row that contains them, but I decided to try using the forward fill function.
+The previous value in the dataframe was filled into the missing value that comes after it, giving a reasonably consistent value with the rest of the dataframe.
