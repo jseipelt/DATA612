@@ -36,7 +36,7 @@ I assigned the difference in months to a new column in the dataframe and finally
 ---------------------------------
 # DATA612: Assignment 3
 
-The purpose of Assinment 3 is to become more familiarized with the seaborn library and its tools in plotting data.
+The purpose of Assignment 3 is to become more familiarized with the seaborn library and its tools in plotting data.
 
 I chose the penguin dataset from the seaborn library and decided to look at a single species, the Adelie.
 The number of Adelie samples totaled to 152 penguins.
