@@ -65,3 +65,12 @@ The number of missing values was calculated by first counting the number of non-
 Using .shape, the number of total rows was shown, and finally subtracting the former from the latter revealed the number of missing values for each column.
 One option for missing values is to remove any row that contains them, but I decided to try using the forward fill function.
 The previous value in the dataframe was filled into the missing value that comes after it, giving a reasonably consistent value with the rest of the dataframe.
+
+---------------------------------
+# DATA612: Assignment 5
+
+This exercise covers how to convert to different datatypes and why it may be a good idea to do so.
+
+After importing pandas, the State Drug Utilization Data csv was imported and I used the .dtypes function to look at the current data types of each feature.
+With only two categories under Utilization Type, I decided to convert it from an object into a category using the .astype('category') function.
+The NDC number is used as an identifier and not for any calculations, so this was converted from an int64 into a string using .astype('str').
