@@ -74,3 +74,18 @@ This exercise covers how to convert to different datatypes and why it may be a g
 After importing pandas, the State Drug Utilization Data csv was imported and I used the .dtypes function to look at the current data types of each feature.
 With only two categories under Utilization Type, I decided to convert it from an object into a category using the .astype('category') function.
 The NDC number is used as an identifier and not for any calculations, so this was converted from an int64 into a string using .astype('str').
+
+---------------------------------
+# DATA612: Assignment 6
+
+This assignment focuses on regular expressions and writing basic functions and using the apply function with them.
+
+The State Drug Utilization dataset contained product names that cut off part of a word after an open parenthesis. 
+Using a regular expression, I specified a sub function that would replace '(' and any letters that come afterwards with an empty ''.
+This cleans the Product Name column up and makes it easier to work with.
+
+Next, a function was created to determine the mean, sum, mode, median and range of the 'Number of Prescriptions' column.
+By defining the 'Number of Prescriptions' column, the operations were shortened considerably for each calculation.
+Using the .apply function to print the statistics unfortunately printed once for every index in the column and will need improvement to properly print a single time.
+
+where 
