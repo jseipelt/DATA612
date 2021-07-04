@@ -88,4 +88,12 @@ Next, a function was created to determine the mean, sum, mode, median and range 
 By defining the 'Number of Prescriptions' column, the operations were shortened considerably for each calculation.
 Using the .apply function to print the statistics unfortunately printed once for every index in the column and will need improvement to properly print a single time.
 
-where 
+---------------------------------
+# DATA612: Assignment 7
+
+This assignment taught how to use written functions and the groupby function to transform or filter the dataset.
+A function was written as an example using the mpg dataset that shows several descriptive statistics that also had a separate row for groups of cylinders.
+Using that function as a template, a new function was made to calculate the same descriptive statistics for the State_Drug_Utilization dataset.
+I decided to do this while also grouping by State and using the apply function to show a separate row with the statistics for each state.
+
+
